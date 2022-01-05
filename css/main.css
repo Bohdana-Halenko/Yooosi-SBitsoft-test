@@ -297,7 +297,7 @@ img {
 
 .header__menu-button,
 .slider__info-button {
-  margin: 0 60px 0 60px;
+  margin-left: 60px;
   background-color: #8d76b2;
   font-size: 14px;
   color: #ffffff;
@@ -429,7 +429,7 @@ img {
 
 .header__burger:before,
 .header__burger::after {
-  content: '';
+  content: "";
   position: absolute;
   background-color: #251c2d;
   height: 3px;

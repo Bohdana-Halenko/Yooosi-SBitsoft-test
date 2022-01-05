@@ -159,7 +159,7 @@
 }
 .header__menu-button,
 .slider__info-button {
-  margin: 0 60px 0 60px;
+  margin-left: 60px;
   background-color: $primary--button-color;
   font-size: 14px;
   color: $primary-background-color;
@@ -266,7 +266,7 @@
 }
 .header__burger:before,
 .header__burger::after {
-  content: '';
+  content: "";
   position: absolute;
   background-color: $burger-color;
   height: 3px;
