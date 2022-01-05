@@ -297,7 +297,7 @@ img {
 
 .header__menu-button,
 .slider__info-button {
-  margin-left: 60px;
+  margin: 0 60px 0 60px;
   background-color: #8d76b2;
   font-size: 14px;
   color: #ffffff;
