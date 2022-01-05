@@ -1,0 +1,70 @@
+.app {
+  background: url(../img/app-bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -3px;
+}
+.app__info {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+}
+.app__info-text {
+  margin-right: 80px;
+}
+.app__info-text p {
+  font-size: 18px;
+  color: $app-text;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.app__info-text h2 {
+  font-size: 36px;
+  color: $primary-background-color;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.app__social-list {
+  display: flex;
+}
+.app__social-item {
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: $primary--button-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 46px;
+}
+.app__social-item:hover,
+.app__social-item:focus {
+  background-color: $primary-background-color;
+}
+.app__social-icon {
+  fill: $primary-background-color;
+}
+.app__social-item:hover .app__social-icon,
+.app__social-item:focus .app__social-icon {
+  fill: $icon-hover;
+}
+
+@media (max-width: 750px) {
+  .app__info {
+    flex-direction: column;
+    text-align: center;
+  }
+  .app__info--text {
+    margin-right: 0;
+  }
+  .app__info--icons span {
+    margin-right: 30px;
+  }
+  .app__info-icons span:last-child {
+    margin-right: 0;
+  }
+  .app__info-icons {
+    margin-top: 30px;
+  }
+}
