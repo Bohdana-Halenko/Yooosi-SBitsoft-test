@@ -846,6 +846,7 @@ img {
   color: #cecfda;
   margin-top: 20px;
   max-width: 620px;
+  line-height: 26px;
 }
 
 .slider__info-other {
@@ -883,7 +884,7 @@ img {
 }
 
 .slider__info-other a::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -10px;
   left: 0;

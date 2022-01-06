@@ -174,6 +174,7 @@
   color: $slider-info-text;
   margin-top: 20px;
   max-width: 620px;
+  line-height: 26px;
 }
 .slider__info-other {
   display: flex;
@@ -202,7 +203,7 @@
   margin: 0 50px;
 }
 .slider__info-other a::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -10px;
   left: 0;
